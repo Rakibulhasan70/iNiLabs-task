@@ -1,0 +1,44 @@
+.upper-header {
+    background: #7E33E0;
+    height: 44px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.upper-mail-phone-div {
+    display: flex;
+    column-gap: 35px
+}
+
+.upper-header-mail {
+    font-family: josefin Sans;
+    /* Width: 171px; */
+    /* height: 16px; */
+    /* top: 13px; */
+    /* left: 403px; */
+    /* size: 16px; */
+    line-height: 16px;
+    color: #F1F1F1;
+
+}
+
+.upper-mail-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #F1F1F1;
+}
+
+.upper-phone-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #F1F1F1;
+}
+
+.upper-header-items {
+    display: flex;
+    column-gap: 15px;
+    color: #F1F1F1;
+
+}
