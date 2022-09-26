@@ -1,3 +1,8 @@
+/* upper header section */
+body {
+    font-family: josefin Sans;
+}
+
 .upper-header {
     background: #7E33E0;
     height: 44px;
@@ -41,4 +46,42 @@
     column-gap: 15px;
     color: #F1F1F1;
 
+}
+
+/* header section */
+.hekto {
+    width: 98px;
+    height: 34px;
+    size: 34px;
+}
+
+.header-menu {
+    display: flex;
+    column-gap: 30px;
+}
+
+.header-menu :hover {
+    color: #FB2E86;
+}
+
+.search-icon {
+    background-color: #FB2E86
+}
+
+.input-box {
+    display: flex;
+}
+
+.input {
+    border: 2px solid #E7E6EF;
+}
+
+.header-part {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-part {
+    background-color: #F2F0FF;
 }
