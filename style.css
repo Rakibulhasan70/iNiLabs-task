@@ -194,6 +194,40 @@ body {
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
 }
 
+.card:hover .card-content {
+    background-color: blue;
+    padding-top: 15px;
+}
+
+.card:hover .card-content2 {
+    background-color: blue;
+    padding-top: 25px;
+    padding-bottom: px;
+}
+
+.card:hover .card-img2 {
+    /* background-color: #FFFFFF; */
+}
+
+.card:hover .card-img {
+    background-color: #FFFFFF;
+}
+
+
+.card:hover .card-title {
+    color: white;
+}
+
+
+.card:hover .card-code {
+    color: white;
+}
+
+.card:hover .card-price {
+    color: white;
+}
+
+
 
 .card-img {
     width: 178px;
@@ -209,7 +243,8 @@ body {
 .card-img2 {
     width: 130px;
     height: 150px;
-    background-color: #F7F7F7;
+    /* background-color: #F7F7F7; */
+
     padding-top: 46px;
     padding-bottom: 39px;
     padding-right: 79px;
@@ -284,6 +319,7 @@ body {
     background-color: white;
 }
 
+
 .view-btn {
     background: #08D15F;
     border-radius: 2px;
@@ -295,9 +331,31 @@ body {
     margin: auto;
     margin-top: -40px;
     padding-top: 5px;
-    color: white;
+    color: #F7F7F7;
+    visibility: hidden;
     padding-left: 10px;
 }
+
+.card:hover .view-btn {
+    background: #08D15F;
+    border-radius: 2px;
+    Width: 94px;
+    Height: 29px;
+    border: 1px solid #08D15F;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    margin-top: -40px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    color: white;
+    padding-left: 10px;
+    visibility: visible;
+}
+
+/* .card:hover .card-btn {
+    margin-top: -50px;
+} */
 
 /* latest product part */
 
@@ -340,7 +398,8 @@ body {
 
 .latest-card2 {
     width: 360px;
-    background: white;
+    height: 276px;
+    background: #F7F7F7;
 }
 
 .latest-card img {
@@ -367,6 +426,13 @@ body {
 }
 
 .latest-details {
+    display: flex;
+    justify-content: space-between;
+    width: 360px;
+
+}
+
+.latest-details2 {
     display: flex;
     justify-content: space-between;
     width: 360px;
@@ -404,6 +470,113 @@ body {
     margin-top: -1000px;
     background: #EEEFFB;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05);
+    margin-bottom: 8px;
 }
 
-.cart :hover {}
+.i {
+    margin-top: -140px;
+    visibility: hidden;
+}
+
+.latest-card2:hover .i {
+    visibility: visible;
+    margin-left: 20px;
+}
+
+.img1 {
+    visibility: hidden;
+}
+
+.latest-card2:hover .img1 {
+    visibility: visible;
+}
+
+.latest-card2:hover {
+    background-color: white;
+}
+
+.love {
+    color: #2F1AC4;
+    width: 14px;
+    height: 13px;
+}
+
+/* what-shopex part */
+
+.what-shopex {
+    /* width: 399px; */
+    height: 42px;
+    font-family: 'Josefin Sans';
+    font-size: 42px;
+    line-height: 49px;
+    color: #151875;
+    text-align: center;
+    padding-top: 58px;
+    font-weight: 600px;
+}
+
+.shopex-card {
+    width: 270px;
+    height: 320px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
+
+}
+
+.shopex-card img {
+    padding-top: 67px;
+    /* padding-bottom: 216px; */
+    padding-left: 104px;
+    padding-right: 102px;
+}
+
+.shopex-title {
+    text-align: center;
+    /* width: 132px; */
+    height: 22px;
+    font-size: 22px;
+    line-height: 26px;
+    padding-top: 18px;
+    font-weight: 500;
+    color: #151875;
+}
+
+.shopex-text {
+    height: 85px;
+    text-align: center;
+    padding-left: 27px;
+    padding-right: 26px;
+    color: rgba(26, 11, 91, 0.3);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.shopex-all-card {
+    display: flex;
+    column-gap: 28px;
+    margin-left: 55px;
+    margin-top: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+
+/* unique feature part */
+
+.unique-part {
+    display: flex;
+    justify-content: center;
+    background: #F1F0FF;
+    margin-top: 150px;
+}
+
+.unique-title {
+    font-size: 35px;
+    line-height: 132%;
+    letter-spacing: 0.015em;
+    color: #151875;
+    width: 507px;
+    height: 92px;
+
+}
