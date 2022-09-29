@@ -198,7 +198,8 @@ body {
 
 .card:hover .card-content {
     background-color: blue;
-    padding-top: 15px;
+    padding-top: 17px;
+    margin-top: -7px;
 }
 
 .card:hover .card-content2 {
@@ -208,11 +209,11 @@ body {
 }
 
 .card:hover .card-img2 {
-    /* background-color: #FFFFFF; */
+    background-color: #F7F7F7;
 }
 
 .card:hover .card-img {
-    background-color: #FFFFFF;
+    /* background-color: #F7F7F7; */
 }
 
 
@@ -245,12 +246,12 @@ body {
 .card-img2 {
     width: 130px;
     height: 150px;
-    /* background-color: #F7F7F7; */
-
+    background-color: #F6F7FB;
     padding-top: 46px;
     padding-bottom: 39px;
     padding-right: 79px;
     padding-left: 61px;
+
 }
 
 .card-title {
@@ -339,7 +340,7 @@ body {
 }
 
 .card:hover .view-btn {
-    background: #08D15F;
+    background: #08D15F !important;
     border-radius: 2px;
     Width: 94px;
     Height: 29px;
@@ -347,7 +348,7 @@ body {
     display: flex;
     text-align: center;
     margin: auto;
-    margin-top: -40px;
+    margin-top: -32px;
     margin-bottom: 10px;
     padding-top: 5px;
     color: white;
@@ -364,8 +365,7 @@ body {
 .latest-products {
     /* width: 338px; */
     height: 42px;
-    left: 791px;
-    top: 1594px;
+    padding-top: 48px;
     font-size: 42px;
     line-height: 49px;
     color: #151875;
